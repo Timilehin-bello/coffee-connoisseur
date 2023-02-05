@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   const handleOnBannerBtnClick = () => {
-    console.log("Searching...");
+    console.log("Searching..");
   };
   return (
     <div className={styles.container}>
@@ -19,16 +19,11 @@ export default function Home() {
       <main className={styles.main}>
         {/* <div className={styles.heroContainer}> */}
         <Banner
-          buttonText="View 5Stores Nearby"
+          buttonText="View Stores Nearby"
           handleOnClick={handleOnBannerBtnClick}
         />
         {/* <div className={styles.heroImage}>
-          <Image
-            src="/../public/static/hero-image.png"
-            alt=""
-            width={450}
-            height={400}
-          />
+          <Image src="/static/heroImage.svg" alt="" width={400} height={400} />
         </div> */}
         {/* </div> */}
       </main>
